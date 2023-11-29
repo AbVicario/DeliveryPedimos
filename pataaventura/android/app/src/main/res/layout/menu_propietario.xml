@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+        <Button
+            android:id="@+id/paseo"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_x="134dp"
+            android:layout_y="459dp"
+            android:background="@color/design_default_color_background"
+            android:text="Solicitar paseo"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <Button
+            android:id="@+id/guarderia"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_x="134dp"
+            android:layout_y="543dp"
+            android:background="@color/design_default_color_background"
+            android:text="Servicio Guarderia"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="64dp"
+            android:layout_height="63dp"
+            android:layout_x="49dp"
+            android:layout_y="538dp"
+            app:srcCompat="@drawable/iconopropietario" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="63dp"
+            android:layout_height="68dp"
+            android:layout_x="47dp"
+            android:layout_y="444dp"
+            app:srcCompat="@drawable/logocuidador" />
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView2"
+            android:layout_width="320dp"
+            android:layout_height="196dp"
+            android:layout_x="53dp"
+            android:layout_y="183dp" />
+    </AbsoluteLayout>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="63dp"
+        android:layout_height="68dp"
+        android:layout_x="47dp"
+        android:layout_y="444dp"
+        app:srcCompat="@drawable/logocuidador" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_x="142dp"
+        android:layout_y="42dp"
+        android:fontFamily="serif"
+        android:text="Pata@ventura"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_x="26dp"
+        android:layout_y="21dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="80dp"
+        android:layout_height="69dp"
+        android:layout_x="310dp"
+        android:layout_y="23dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/desplegable" />
+
+</AbsoluteLayout>
